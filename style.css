@@ -1,0 +1,137 @@
+body {
+    color: antiquewhite;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    background: #230D28;
+}
+greens {
+    background: #628256;
+    background: #394C32;
+    background: #28431E;
+    background: #1A3410;
+    background: #0D2205;
+}
+browns {
+    background: #988065;
+    background: #594B3A;
+    background: #4E3A23;
+    background: #3D2913;
+    background: #281805;
+}
+purple-and-pink {
+    background: #5E4464;
+    background: #37273B;
+    background: #2E1834;
+    background: #230D28;
+    background: #16041A;
+
+    background: #905F67;
+    background: #54373C;
+    background: #4A2128;
+    background: #3A1218;
+    background: #26050A;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #28431E;
+    padding: 0 20px ;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+header li {
+    list-style-type: none;
+    background: #628256;
+    padding: 10px 20px;
+}
+header li.current {
+    background: #230D28;
+}
+header li:hover:not(.current) {
+    background: #905F67;
+    transition-duration: 0.15s;
+}
+
+.homeContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;  
+}
+.homeContainer > section {
+    width: 40%;
+    display: flex;
+}
+.homeContainer img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 400px;
+}
+.homeContainer q {
+    width: 90%;
+    align-self: center;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.flowersContainer {
+    margin: 20px 0;  
+}
+.flowersContainer > section:first-of-type {
+    display: grid;
+    width: fit-content;
+    width: 80%;
+    max-width: 920px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 1fr;
+    margin: 0 auto;
+    gap: 20px;
+}
+.flowersContainer img:first-of-type {
+    grid-column: 1 / span 3;    
+    grid-row: 1;   
+}
+.flowersContainer img:nth-of-type(2) {
+    grid-column: 1 / span 2;   
+    grid-row: 2; 
+}
+.flowersContainer img:last-of-type {
+    grid-column: 3 / span 2;  
+    grid-row: 2;   
+}
+.flowersContainer img {
+    max-width: 100%; 
+}
+.flowersContainer p {
+    grid-column: 4;  
+    grid-row: 1;   
+    text-align: left;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.veggiesContainer {
+    margin: 20px 0;    
+}
+.veggiesContainer > section:first-of-type {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+}
+.veggiesContainer img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+}
+.veggiesContainer p {
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;    
+}
