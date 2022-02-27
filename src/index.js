@@ -51,7 +51,7 @@ const homePage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image.src = "../assets/IMG_20200423_140626.jpg";
+    image.src = "./assets/IMG_20200423_140626.jpg";
     imageSection.appendChild(image);
 
     quote.textContent = "In the spring, at the end of the day, you should smell like dirt."
@@ -76,9 +76,9 @@ const flowersPage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image1.src = "../assets/IMG_20200516_164906.jpg";
-    image2.src = "../assets/IMG_20200502_194444.jpg";
-    image3.src = "../assets/IMG_20200716_182020.jpg";
+    image1.src = "./assets/IMG_20200516_164906.jpg";
+    image2.src = "./assets/IMG_20200502_194444.jpg";
+    image3.src = "./assets/IMG_20200716_182020.jpg";
     sentence.textContent = "Don't forget to water me :/"
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);
@@ -104,8 +104,8 @@ const veggiesPage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image1.src = "../assets/IMG_20200503_161134.jpg";
-    image2.src = "../assets/IMG_20200502_152305.jpg";
+    image1.src = "./assets/IMG_20200503_161134.jpg";
+    image2.src = "./assets/IMG_20200502_152305.jpg";
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);
 
