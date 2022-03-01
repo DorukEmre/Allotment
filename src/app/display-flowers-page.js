@@ -1,3 +1,7 @@
+import image1FlowersPage from "../assets/IMG_20200516_164906.jpg";
+import image2FlowersPage from "../assets/IMG_20200502_194444.jpg";
+import image3FlowersPage from "../assets/IMG_20200716_182020.jpg";
+
 export const displayFlowersPage = () => {
     console.log('You clicked on "Flowers"')
     
@@ -16,9 +20,9 @@ export const displayFlowersPage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image1.src = "./assets/IMG_20200516_164906.jpg";
-    image2.src = "./assets/IMG_20200502_194444.jpg";
-    image3.src = "./assets/IMG_20200716_182020.jpg";
+    image1.src = image1FlowersPage;
+    image2.src = image2FlowersPage;
+    image3.src = image3FlowersPage;
     sentence.textContent = "Don't forget to water me :/"
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);

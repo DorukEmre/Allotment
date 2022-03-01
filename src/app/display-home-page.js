@@ -1,3 +1,5 @@
+import imageHomePage from "../assets/IMG_20200423_140626.jpg";
+
 export const displayHomePage = () => {
     console.log('You clicked on "Home"')
 
@@ -14,7 +16,7 @@ export const displayHomePage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image.src = "./assets/IMG_20200423_140626.jpg";
+    image.src = imageHomePage;
     imageSection.appendChild(image);
 
     quote.textContent = "In the spring, at the end of the day, you should smell like dirt."

@@ -1,3 +1,6 @@
+import image1VeggiesPage from "../assets/IMG_20200503_161134.jpg";
+import image2VeggiesPage from "../assets/IMG_20200502_152305.jpg";
+
 export const displayVeggiesPage = () => {
     console.log('You clicked on "Veggies"')
 
@@ -16,8 +19,8 @@ export const displayVeggiesPage = () => {
     main.appendChild(imageSection);
     main.appendChild(textSection);
 
-    image1.src = "./assets/IMG_20200503_161134.jpg";
-    image2.src = "./assets/IMG_20200502_152305.jpg";
+    image1.src = image1VeggiesPage;
+    image2.src = image2VeggiesPage;
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);
 
