@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayFlowersPage\": () => (/* binding */ displayFlowersPage)\n/* harmony export */ });\nconst displayFlowersPage = () => {\n    console.log('You clicked on \"Flowers\"')\n    \n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"flowersContainer\")\n    content.appendChild(main);\n\n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image1 = document.createElement(\"img\");\n    const image2 = document.createElement(\"img\");\n    const image3 = document.createElement(\"img\");\n    const sentence = document.createElement(\"p\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image1.src = \"./assets/IMG_20200516_164906.jpg\";\n    image2.src = \"./assets/IMG_20200502_194444.jpg\";\n    image3.src = \"./assets/IMG_20200716_182020.jpg\";\n    sentence.textContent = \"Don't forget to water me :/\"\n    imageSection.appendChild(image1);\n    imageSection.appendChild(image2);\n    imageSection.appendChild(image3);\n    imageSection.appendChild(sentence);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-flowers-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayFlowersPage\": () => (/* binding */ displayFlowersPage)\n/* harmony export */ });\n/* harmony import */ var _assets_IMG_20200516_164906_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/IMG_20200516_164906.jpg */ \"./src/assets/IMG_20200516_164906.jpg\");\n/* harmony import */ var _assets_IMG_20200502_194444_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/IMG_20200502_194444.jpg */ \"./src/assets/IMG_20200502_194444.jpg\");\n/* harmony import */ var _assets_IMG_20200716_182020_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/IMG_20200716_182020.jpg */ \"./src/assets/IMG_20200716_182020.jpg\");\n\n\n\n\nconst displayFlowersPage = () => {\n    console.log('You clicked on \"Flowers\"')\n    \n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"flowersContainer\")\n    content.appendChild(main);\n\n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image1 = document.createElement(\"img\");\n    const image2 = document.createElement(\"img\");\n    const image3 = document.createElement(\"img\");\n    const sentence = document.createElement(\"p\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image1.src = _assets_IMG_20200516_164906_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    image2.src = _assets_IMG_20200502_194444_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    image3.src = _assets_IMG_20200716_182020_jpg__WEBPACK_IMPORTED_MODULE_2__;\n    sentence.textContent = \"Don't forget to water me :/\"\n    imageSection.appendChild(image1);\n    imageSection.appendChild(image2);\n    imageSection.appendChild(image3);\n    imageSection.appendChild(sentence);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-flowers-page.js?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayHomePage\": () => (/* binding */ displayHomePage)\n/* harmony export */ });\nconst displayHomePage = () => {\n    console.log('You clicked on \"Home\"')\n\n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"homeContainer\")\n    content.appendChild(main);\n    \n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image = document.createElement(\"img\");\n    const quote = document.createElement(\"q\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image.src = \"./assets/IMG_20200423_140626.jpg\";\n    imageSection.appendChild(image);\n\n    quote.textContent = \"In the spring, at the end of the day, you should smell like dirt.\"\n    textSection.appendChild(quote);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-home-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayHomePage\": () => (/* binding */ displayHomePage)\n/* harmony export */ });\n/* harmony import */ var _assets_IMG_20200423_140626_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/IMG_20200423_140626.jpg */ \"./src/assets/IMG_20200423_140626.jpg\");\n\n\nconst displayHomePage = () => {\n    console.log('You clicked on \"Home\"')\n\n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"homeContainer\")\n    content.appendChild(main);\n    \n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image = document.createElement(\"img\");\n    const quote = document.createElement(\"q\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image.src = _assets_IMG_20200423_140626_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    imageSection.appendChild(image);\n\n    quote.textContent = \"In the spring, at the end of the day, you should smell like dirt.\"\n    textSection.appendChild(quote);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-home-page.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayVeggiesPage\": () => (/* binding */ displayVeggiesPage)\n/* harmony export */ });\nconst displayVeggiesPage = () => {\n    console.log('You clicked on \"Veggies\"')\n\n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"veggiesContainer\")\n    content.appendChild(main);\n\n\n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image1 = document.createElement(\"img\");\n    const image2 = document.createElement(\"img\");\n    const sentence = document.createElement(\"p\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image1.src = \"./assets/IMG_20200503_161134.jpg\";\n    image2.src = \"./assets/IMG_20200502_152305.jpg\";\n    imageSection.appendChild(image1);\n    imageSection.appendChild(image2);\n\n    sentence.textContent = \"Eat me!\"\n    textSection.appendChild(sentence);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-veggies-page.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"displayVeggiesPage\": () => (/* binding */ displayVeggiesPage)\n/* harmony export */ });\n/* harmony import */ var _assets_IMG_20200503_161134_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/IMG_20200503_161134.jpg */ \"./src/assets/IMG_20200503_161134.jpg\");\n/* harmony import */ var _assets_IMG_20200502_152305_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/IMG_20200502_152305.jpg */ \"./src/assets/IMG_20200502_152305.jpg\");\n\n\n\nconst displayVeggiesPage = () => {\n    console.log('You clicked on \"Veggies\"')\n\n    const content = document.querySelector(\"#content\");\n    const main = document.createElement(\"main\");\n    main.classList.add(\"veggiesContainer\")\n    content.appendChild(main);\n\n\n    const imageSection = document.createElement(\"section\");\n    const textSection = document.createElement(\"section\");\n    const image1 = document.createElement(\"img\");\n    const image2 = document.createElement(\"img\");\n    const sentence = document.createElement(\"p\");\n\n    main.appendChild(imageSection);\n    main.appendChild(textSection);\n\n    image1.src = _assets_IMG_20200503_161134_jpg__WEBPACK_IMPORTED_MODULE_0__;\n    image2.src = _assets_IMG_20200502_152305_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    imageSection.appendChild(image1);\n    imageSection.appendChild(image2);\n\n    sentence.textContent = \"Eat me!\"\n    textSection.appendChild(sentence);\n}\n\n//# sourceURL=webpack://allotment/./src/app/display-veggies-page.js?");
 
 /***/ }),
 
@@ -187,6 +187,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _app
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"removeAllChildNodes\": () => (/* binding */ removeAllChildNodes)\n/* harmony export */ });\nfunction removeAllChildNodes(parent) {\n    while (parent.firstChild) {\n        parent.removeChild(parent.firstChild);\n    }\n}  \n\n//# sourceURL=webpack://allotment/./src/utils/remove-all-child-nodes.js?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200423_140626.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200423_140626.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a39306f791e55fe3703a.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200423_140626.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200502_152305.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200502_152305.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cd5b16144096155cd28f.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200502_152305.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200502_194444.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200502_194444.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c4e4c1a485318d901fc3.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200502_194444.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200503_161134.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200503_161134.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d383a46f9123e3186feb.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200503_161134.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200516_164906.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200516_164906.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ee79cb7f5d9993b488d9.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200516_164906.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/IMG_20200716_182020.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/IMG_20200716_182020.jpg ***!
+  \********************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"487dcc5f3aefbb374e3c.jpg\";\n\n//# sourceURL=webpack://allotment/./src/assets/IMG_20200716_182020.jpg?");
 
 /***/ })
 
@@ -241,6 +301,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -255,6 +327,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
