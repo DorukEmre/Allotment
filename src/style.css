@@ -69,6 +69,7 @@ header li:hover:not(.current) {
 
 main {
     margin-top: 107px;
+    padding-bottom: 20px;
 }
 
 .homeContainer {
@@ -79,6 +80,9 @@ main {
 .homeContainer > section {
     width: 40%;
     display: flex;
+}
+.homeContainer > section:last-of-type {
+    justify-content: flex-end;
 }
 .homeContainer img {
     object-fit: contain;
@@ -141,7 +145,8 @@ main {
 .veggiesContainer p {
     text-align: center;
     font-style: italic;
-    font-size: 2rem;    
+    font-size: 2rem;
+    margin: 16px 0;
 }
 
 @media screen and (max-width: 670px) {
