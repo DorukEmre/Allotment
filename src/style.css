@@ -4,6 +4,9 @@ body {
     margin: 0;
     background: #230D28;
 }
+#content {
+    width: 100%;
+}
 greens {
     background: #628256;
     background: #394C32;
@@ -37,17 +40,19 @@ header {
     justify-content: space-between;
     align-items: center;
     background: #28431E;
-    padding: 0 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
+header h1 {
+    padding: 0 20px;
+}
 header ul {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding-right: 40px;
+    padding: 0 20px;
 }
 header li {
     list-style-type: none;
@@ -143,6 +148,7 @@ main {
     header {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
     h1 {
         margin: 10px 0 0;
@@ -153,11 +159,16 @@ main {
     main {
         margin-top: 144px;
     }
+    .homeContainer {
+        gap: 20px;
+    }
     .flowersContainer > section:first-of-type {
         width: 90%;
+        align-items: center;
     }
     .flowersContainer p {
         margin: 0;
+        font-size: 1.7rem;
     }
     .veggiesContainer > section:first-of-type {
         width: 90%;

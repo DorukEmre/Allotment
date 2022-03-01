@@ -23,7 +23,7 @@ export const displayFlowersPage = () => {
     image1.src = image1FlowersPage;
     image2.src = image2FlowersPage;
     image3.src = image3FlowersPage;
-    sentence.textContent = "Don't forget to water me :/"
+    sentence.textContent = "Don't forget to water me :)"
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);
     imageSection.appendChild(image3);

@@ -24,6 +24,6 @@ export const displayVeggiesPage = () => {
     imageSection.appendChild(image1);
     imageSection.appendChild(image2);
 
-    sentence.textContent = "Eat me!"
+    sentence.textContent = "Eat me if you can!"
     textSection.appendChild(sentence);
 }
