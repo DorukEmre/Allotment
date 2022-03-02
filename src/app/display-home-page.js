@@ -1,8 +1,6 @@
 import imageHomePage from "../assets/IMG_20200423_140626.jpg";
 
 export const displayHomePage = () => {
-    console.log('You clicked on "Home"')
-
     const content = document.querySelector("#content");
     const main = document.createElement("main");
     main.classList.add("homeContainer")

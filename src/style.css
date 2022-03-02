@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     color: antiquewhite;
     font-family: 'Noto Sans', sans-serif;
@@ -6,33 +9,6 @@ body {
 }
 #content {
     width: 100%;
-}
-greens {
-    background: #628256;
-    background: #394C32;
-    background: #28431E;
-    background: #1A3410;
-    background: #0D2205;
-}
-browns {
-    background: #988065;
-    background: #594B3A;
-    background: #4E3A23;
-    background: #3D2913;
-    background: #281805;
-}
-purple-and-pink {
-    background: #5E4464;
-    background: #37273B;
-    background: #2E1834;
-    background: #230D28;
-    background: #16041A;
-
-    background: #905F67;
-    background: #54373C;
-    background: #4A2128;
-    background: #3A1218;
-    background: #26050A;
 }
 
 header {
@@ -167,13 +143,15 @@ main {
     .homeContainer {
         gap: 20px;
     }
+    #content p, #content q {
+        font-size: 1.7rem;
+    }
     .flowersContainer > section:first-of-type {
         width: 90%;
         align-items: center;
     }
     .flowersContainer p {
         margin: 0;
-        font-size: 1.7rem;
     }
     .veggiesContainer > section:first-of-type {
         width: 90%;

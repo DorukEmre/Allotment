@@ -1,7 +1,6 @@
 import { listenToTabs } from "./listen-to-tabs";
 
 export const displayHeader = (toSetToCurrent) => {
-
     const content = document.querySelector("#content");
 
     const header = document.createElement("header");

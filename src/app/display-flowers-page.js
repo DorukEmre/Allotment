@@ -3,8 +3,6 @@ import image2FlowersPage from "../assets/IMG_20200502_194444.jpg";
 import image3FlowersPage from "../assets/IMG_20200716_182020.jpg";
 
 export const displayFlowersPage = () => {
-    console.log('You clicked on "Flowers"')
-    
     const content = document.querySelector("#content");
     const main = document.createElement("main");
     main.classList.add("flowersContainer")
