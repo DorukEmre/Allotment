@@ -6,6 +6,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     background: #230D28;
+    height: 100vh; 
 }
 #content {
     width: 100%;
@@ -20,6 +21,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 header h1 {
     padding: 0 20px;
@@ -44,8 +46,9 @@ header li:hover:not(.current) {
 }
 
 main {
-    margin-top: 107px;
-    padding-bottom: 20px;
+    margin-top: 87px;
+    padding: 20px 0 40px;
+    height: calc(100% - 87px);
 }
 
 .homeContainer {
@@ -56,14 +59,28 @@ main {
 .homeContainer > section {
     width: 40%;
     display: flex;
+    max-width: 400px;
+}
+.homeContainer > section:first-of-type {
+    position: relative;
 }
 .homeContainer > section:last-of-type {
     justify-content: flex-end;
 }
-.homeContainer img {
+.homeContainer .main-image {
     object-fit: contain;
     width: 100%;
-    max-width: 400px;
+    min-width: 175px;
+    z-index: 8;
+}
+.homeContainer .emoji {
+    position: absolute;
+    transform: rotate(0.25turn);
+    bottom: 75%;
+    left: 98%;
+    width: 20%;
+    max-width: 80px;
+    z-index: 6;
 }
 .homeContainer q {
     width: 90%;
@@ -110,19 +127,31 @@ main {
     display: flex;
     justify-content: center;
     width: 80%;
+    max-width: 800px;
     margin: 0 auto;
     gap: 40px;
+    position: relative;
 }
-.veggiesContainer img {
+.veggiesContainer .main-image {
     object-fit: contain;
     width: 100%;
     max-width: 300px;
+    z-index: 8;
 }
 .veggiesContainer p {
     text-align: center;
     font-style: italic;
     font-size: 2rem;
-    margin: 16px 0;
+    margin: 16px auto;
+}
+.veggiesContainer .emoji {
+    position: absolute;
+    transform: rotate(0.5turn);
+    bottom: -16%;
+    left: 78%;
+    width: 10%;
+    max-width: 65px;
+    z-index: 6;
 }
 
 @media screen and (max-width: 670px) {
@@ -138,7 +167,8 @@ main {
         margin-top: 10px;
     }
     main {
-        margin-top: 144px;
+        margin-top: 124px;
+        height: calc(100% - 124px);
     }
     .homeContainer {
         gap: 20px;
@@ -156,5 +186,19 @@ main {
     .veggiesContainer > section:first-of-type {
         width: 90%;
         gap: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .homeContainer .emoji {
+        transform: rotate(0.5turn);
+        bottom: -5%;
+        left: 60%;
+    }
+}
+@media screen and (max-width: 367px) {
+    .homeContainer .emoji {
+        bottom: 2%;
+        left: 70%;
     }
 }
